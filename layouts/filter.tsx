@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../components/organisms/footer/footer";
-import Header from "../components/organisms/header/header";
-import Nav from "../components/organisms/toolist/nav";
-import TopNav from "../components/organisms/TopNav/top-nav";
+import Footer from "../src/components/organisms/footer/footer";
+import Header from "../src/components/organisms/header/header";
+import Nav from "../src/components/organisms/toolist/nav";
+import TopNav from "../src/components/organisms/TopNav/top-nav";
 import useNav from "lib/hooks/useNav";
 
 const FilterLayout = ({children}: {children: React.ReactNode}) => {
