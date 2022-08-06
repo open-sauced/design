@@ -1,7 +1,7 @@
 import React from "react";
 import { Typography } from "@supabase/ui";
 
-const { Title: SupabaseTitleComponent } = Typography;
+export const { Title: SupabaseTitleComponent } = Typography;
 
 interface TitleProps extends React.ComponentProps<typeof SupabaseTitleComponent> {
   //Add additional prop definitions here
