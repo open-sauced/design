@@ -1,6 +1,6 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import TextInput from "../../../src/components/atoms/TextInput/text-input";
+import TextInput from "../../components/atoms/TextInput/text-input";
 
 const storyConfig = {
   title: "Design System/Atoms/Text Input",

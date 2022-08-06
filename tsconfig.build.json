@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "dist/design-system/src",
+    "target": "es2015",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "jsx": "react-jsx"
+  },
+  "files": ["src/index.ts"],
+  "include": ["images.d.ts"],
+  "exclude": [
+    "src/stories/*"
+  ]
+}

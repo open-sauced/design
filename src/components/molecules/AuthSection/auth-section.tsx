@@ -2,15 +2,15 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import notifications from "../../../../public/notifications.svg";
 import downArrow from "../../../../public/chevron-down.svg";
-import Avatar from "src/components/atoms/Avatar/avatar";
-import Button from "src/components/atoms/Button/button";
+import Avatar from "../../../components/atoms/Avatar/avatar";
+import Button from "../../../components/atoms/Button/button";
 import userAvatar from "../../../../public/ellipse-1.png";
 import OnboardingButton from "../OnboardingButton/onboarding-button";
 import DropdownList from "../DropdownList/dropdown-list";
-import Text from "src/components/atoms/Typography/text";
+import Text from "../../../components/atoms/Typography/text";
 import { Divider } from "@supabase/ui";
 import useSupabaseAuth from "../../../../lib/hooks/useSupabaseAuth";
-import { useGlobalStateContext } from "context/global-state";
+import { useGlobalStateContext } from "../../../../context/global-state";
 
 const AuthSection: React.FC = ({  }) => {
 

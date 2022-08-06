@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Button from "../../components/atoms/Button/button";
-import Icon from "src/components/atoms/Icon/icon";
+import Icon from "../../components/atoms/Icon/icon";
 import ForkIcon from "public/icons/fork-icon.svg";
 
 const storyConfig = {
