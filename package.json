@@ -1,6 +1,6 @@
 {
-  "name": "@open-sauced/design-system",
-  "version": "0.1.0",
+  "name": "@br-sauced/design-system",
+  "version": "0.1.1",
   "main": "src/index.js",
   "scripts": {
     "dev": "next dev",
@@ -18,7 +18,7 @@
     "push": "npx @open-sauced/conventional-commit"
   },
   "dependencies": {
-    "@br-sauced/design-system": "*",
+    "@br-sauced/design-system": "0.1.1",
     "@headlessui/react": "^1.6.6",
     "@supabase/gotrue-js": "^1.22.20",
     "@supabase/supabase-js": "^1.35.4",
