@@ -16,18 +16,22 @@ interface FilterCardProps {
 
 const icons = {
   topic: {
+    // @ts-ignore
     src: hashIcon.src,
     alt: "Topic"
   },
   org: {
+    // @ts-ignore
     src: orgIcon.src,
     alt: "Organization"
   },
   contributor: {
+    // @ts-ignore
     src: personIcon.src,
     alt: "Contributor"
   },
   repo: {
+    // @ts-ignore
     src: repoIcon.src,
     alt: "Repository"
   }

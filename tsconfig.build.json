@@ -1,29 +1,16 @@
 {
   "compilerOptions": {
-    "outDir": "dist/design-system/src",
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": false,
+    "skipLibCheck": true,
     "jsx": "react-jsx",
-    "declaration": true
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "dist/design-system/src",
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
   },
   "files": ["src/index.ts"],
   "include": ["images.d.ts"],
-  "exclude": [
-    "src/stories/*"
-  ]
+  "exclude": ["*/stories/*"]
 }

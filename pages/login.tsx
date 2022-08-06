@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { WithPageLayout } from "../interfaces/with-page-layout";
 import LoginLayout from "layouts/login";
 import { useRouter } from "next/router";
-import Card from "src/components/atoms/Card/card";
-import ProgressPie from "src/components/atoms/ProgressPie/progress-pie";
-import Title from "src/components/atoms/Typography/title";
-import Text from "src/components/atoms/Typography/text";
-import Icon from "src/components/atoms/Icon/icon";
+// import Card from "src/components/atoms/Card/card";
+// import ProgressPie from "src/components/atoms/ProgressPie/progress-pie";
+// import Title from "src/components/atoms/Typography/title";
+// import Text from "src/components/atoms/Typography/text";
+// import TextInput from "src/components/atoms/TextInput/text-input";
+// import Icon from "src/components/atoms/Icon/icon";
 import CompletedIcon from "public/icons/completed-icon.svg";
 import GitHubAuthActiveIcon from "public/icons/github-auth-active-icon.svg";
 import ChooseRepoIcon from "public/icons/choose-repo-icon.svg";
@@ -17,8 +18,8 @@ import HighlightIcon from "public/icons/highlight-icon.svg";
 import GitHubIcon from "public/icons/github-icon.svg";
 import TestRepoAvatar from "public/icons/test-repo-avatar.svg";
 import AddIcon from "public/icons/add-icon.svg";
-import Button from "src/components/atoms/Button/button";
-import TextInput from "src/components/atoms/TextInput/text-input";
+import {Button, Card, ProgressPie, Title, Text, TextInput, Icon} from "@br-sauced/design-system";
+
 import { LoginRepoObjectInterface } from "interfaces/login-repo-object-interface";
 import useLoginRepoList from "lib/hooks/useLoginRepoList";
 
