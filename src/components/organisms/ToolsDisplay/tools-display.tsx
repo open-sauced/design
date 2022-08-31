@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "../../atoms/Card/card";
-import SelectableTable from "../../../components/molecules/SelectableTable/selectable-table";
-import ScatterChart from "../../../components/molecules/ScatterChart/scatter-chart";
-import HighlightCard from "../../../components/molecules/HighlightCard/highlight-card";
+import SelectableTable from "../../molecules/SelectableTable/selectable-table";
+import ScatterChart from "../../molecules/ScatterChart/scatter-chart";
+import HighlightCard from "../../molecules/HighlightCard/highlight-card";
 import { testRows, extendedTestRows, testOptions } from "./fake-data";
 
 interface ToolProps {
