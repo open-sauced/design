@@ -7,6 +7,8 @@ import GlobalState from "../context/global-state";
 import { useRouter } from "next/router";
 import changeCapitalization from "../lib/utils/change-capitalization";
 
+
+
 type ComponentWithPageLayout = AppProps & {
   Component: AppProps["Component"] & {
     PageLayout?: React.ComponentType<any>;

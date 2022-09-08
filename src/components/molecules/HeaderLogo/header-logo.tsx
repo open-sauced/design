@@ -1,5 +1,5 @@
 import React from "react";
-import Text from "../../../components/atoms/Typography/text";
+import Text from "../../atoms/Typography/text";
 import Image from "next/image";
 import openSaucedImg from "../../../../public/openSauced-icon.png";
 

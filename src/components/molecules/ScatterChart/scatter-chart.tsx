@@ -1,7 +1,7 @@
 import React from "react";
-import Text from "../../../components/atoms/Typography/text";
-import IconButton from "../../../components/atoms/IconButton/icon-button";
-import EChartWrapper from "../../../components/atoms/EChartWrapper/echart-wrapper";
+import Text from "../../atoms/Typography/text";
+import IconButton from "../../atoms/IconButton/icon-button";
+import EChartWrapper from "../../atoms/EChartWrapper/echart-wrapper";
 import ComponentHeader from "../ComponentHeader/component-header";
 
 interface ScatterChartProps {

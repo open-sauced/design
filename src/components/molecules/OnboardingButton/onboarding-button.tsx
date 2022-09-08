@@ -1,6 +1,6 @@
 import React from "react";
-import Text from "../../../components/atoms/Typography/text";
-import ProgressPie from "../../../components/atoms/ProgressPie/progress-pie";
+import Text from "../../atoms/Typography/text";
+import ProgressPie from "../../atoms/ProgressPie/progress-pie";
 
 const OnboardingButton: React.FC = () => {
   return (
