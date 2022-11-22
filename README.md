@@ -8,7 +8,7 @@
 
 ## 🖼️ Project Figma
 
-The figma for this project can be found [here](https://www.figma.com/file/OpVX6WT7dmWqnwRuEvADMF/OpenSauced-%E2%80%94-Insights-(insights.opensauced.pizza)).
+The figma for this project can be found [here](<https://www.figma.com/file/OpVX6WT7dmWqnwRuEvADMF/OpenSauced-%E2%80%94-Insights-(insights.opensauced.pizza)>).
 
 ## 🔬 Atomic Design
 
@@ -19,20 +19,14 @@ This project uses Atomic Design for it's Components. Here are several resources 
 
 ## 📙 Storybook
 
-The Stoybook for this project can be found at [design-insights.opensauced.pizza](https://design-insights.opensauced.pizza). 
+The Stoybook for this project can be found at [design-insights.opensauced.pizza](https://design-insights.opensauced.pizza).
 
-### Run it locally
+### Folders in our design system
 
-```bash
-npm run storybook
-```
-
-### Deploy your branch ([video explaining this](https://www.loom.com/share/c3a3fa04a4a343da8228bdb9b9a66746))
-
-Navigate to the [Storybook Action](https://github.com/open-sauced/insights/actions/workflows/storybook.yml). Choose your branch in the "Run Workflow" dropdown.
-
-<img width="1050" alt="storybook action tab" src="https://user-images.githubusercontent.com/5713670/178128835-d81205f3-a875-474f-8b4f-46a1ad814fe1.png">
-
+- Atoms folder: Atoms are the basic building blocks of matter. Applied to web interfaces, atoms are our HTML tags, such as a form label, an input or a button.
+- Molecules folder: folder: Molecules are groups of atoms bonded together and are the smallest fundamental units of a compound.
+- Organisms folder: Organisms are groups of molecules joined together to form a relatively complex, distinct section of an interface.
+- Templates folder: Templates consist mostly of groups of organisms stitched together to form pages.
 
 ## 🖥️ Local development
 
@@ -47,6 +41,20 @@ To start a local copy of the app on port `3000`:
 ```shell
 npm start
 ```
+
+### Storybook local development
+
+To run Storybook locally on port `6006`:
+
+```shell
+npm run storybook
+```
+
+### Deploy your branch ([video explaining this](https://www.loom.com/share/c3a3fa04a4a343da8228bdb9b9a66746))
+
+Navigate to the [Storybook Action](https://github.com/open-sauced/insights/actions/workflows/storybook.yml). Choose your branch in the "Run Workflow" dropdown.
+
+<img width="1050" alt="storybook action tab" src="https://user-images.githubusercontent.com/5713670/178128835-d81205f3-a875-474f-8b4f-46a1ad814fe1.png">
 
 ### 🎨 Code linting
 
