@@ -1,11 +1,6 @@
 import React from "react";
-import { Typography } from "@supabase/ui";
-
-export const { Text: SupabaseTextComponent } = Typography;
 
 interface LogoTextProps {
-  // extends React.ComponentProps<typeof SupabaseTextComponent> {
-  //Add additional prop definitions here
   className?: string;
   children: string;
   strong: boolean;
