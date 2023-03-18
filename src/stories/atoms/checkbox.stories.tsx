@@ -1,8 +1,8 @@
-import Checkbox from 'src/components/atoms/Checkbox/checkbox';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
+import Checkbox from "src/components/atoms/Checkbox/checkbox";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 const storyConfig = {
-  title: 'Design System/Atoms/Checkbox',
+  title: "Design System/Atoms/Checkbox"
 };
 
 export default storyConfig;
@@ -14,4 +14,4 @@ const CheckboxTemplate: ComponentStory<typeof Checkbox> = (args) => (
 
 // FilterCard Default
 export const Default = CheckboxTemplate.bind({});
-Default.args = { label: 'test' };
+Default.args = { label: "test" };
