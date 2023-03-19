@@ -6,7 +6,7 @@
     "dev": "next dev",
     "prebuild": "rimraf dist",
     "copy:images": "mkdir -p dist/design-system && cp -r public dist/design-system",
-    "build": "npm run copy:images && npm run build-storybook && tsc -p tsconfig.build.json",
+    "build": "npm run copy:images && tsc -p tsconfig.build.json",
     "postbuild": "cp package.json dist/design-system",
     "start": "next start",
     "test": "jest",
