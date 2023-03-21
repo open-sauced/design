@@ -1,27 +1,27 @@
-    import React from 'react';
-    import { ComponentStory, ComponentMeta } from '@storybook/react';
-    import Select from 'src/components/atoms/Select/select';
-    import SelectOption from 'src/components/atoms/Select/select-option';
+import React from "react";
+import { ComponentStory, ComponentMeta } from "@storybook/react";
+import Select from "src/components/atoms/Select/select";
+import SelectOption from "src/components/atoms/Select/select-option";
 
-    const storyConfig = {
-      title: 'Design System/Atoms/Select',
-      component: 'Select',
-    };
+const storyConfig = {
+  title: "Design System/Atoms/Select",
+  component: "Select"
+};
 
-    export default storyConfig;
+export default storyConfig;
 
-    //Select Template
-    const SelectTemplate: ComponentStory<typeof Select> = (args) => (
-      <Select {...args} />
-    );
+//Select Template
+const SelectTemplate: ComponentStory<typeof Select> = (args) => (
+  <Select {...args} />
+);
 
-    //Select Option Template (needed?)
-    const SelectOptionTemplate: ComponentStory<typeof SelectOption> = (
-      args
-    ) => <SelectOption {...args} />;
+//Select Option Template (needed?)
+const SelectOptionTemplate: ComponentStory<typeof SelectOption> = (
+  args
+) => <SelectOption {...args} />;
 
-    export const Default = SelectTemplate.bind({});
+export const Default = SelectTemplate.bind({});
 
-    Default.args = {
-      children: <SelectOption value=''>Test</SelectOption>,
-    };
+Default.args = {
+  children: <SelectOption value="">Test</SelectOption>
+};
