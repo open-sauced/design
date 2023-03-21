@@ -1,7 +1,7 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import PillSelector from "../../../insights/components/primitives/PillSelector/pill-selector";
-import Thumbnail from "../../../public/hacktoberfest-icon.png";
+import Thumbnail from "../../../../public/hacktoberfest-icon.png";
 
 const storyConfig = {
   title: "Design System/INSIGHTS/Primitives/PillSelector",
