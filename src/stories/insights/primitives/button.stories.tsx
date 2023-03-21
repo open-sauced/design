@@ -1,11 +1,11 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Button from "../../components/atoms/Button/button";
-import Icon from "../../components/atoms/Icon/icon";
+import Button from "../../../insights/components/primitives/Button/button";
+import Icon from "../../../insights/components/primitives/Icon/icon";
 import ForkIcon from "public/icons/fork-icon.svg";
 
 const storyConfig = {
-  title: "Design System/Atoms/Button",
+  title: "Design System/INSIGHTS/Primitives/Button",
   argTypes: {
     type: {
       options: ["primary", "outline", "default", "link"],

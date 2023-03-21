@@ -1,10 +1,10 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Icon from "../../components/atoms/Icon/icon";
+import Icon from "../../../insights/components/primitives/Icon/icon";
 import ForkIcon from "public/icons/fork-icon.svg";
 
 const storyConfig = {
-  title: "Design System/Atoms/Icon",
+  title: "Design System/INSIGHTS/Primitives/Icon",
   component: "Icon Button"
 };
 

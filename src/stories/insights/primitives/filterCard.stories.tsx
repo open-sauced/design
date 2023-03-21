@@ -1,10 +1,10 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import FilterCard from "../../components/atoms/FilterCard/filter-card";
+import FilterCard from "../../../insights/components/primitives/FilterCard/filter-card";
 
 
 const storyConfig = {
-  title: "Design System/Atoms/FilterCard",
+  title: "Design System/INSIGHTS/Primitives/FilterCard",
   component: "FilterCard",
   argTypes: {
     isRemovable: {

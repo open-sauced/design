@@ -1,9 +1,9 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Avatar from "src/components/atoms/Avatar/avatar";
+import Avatar from "src/insights/components/primitives/Avatar/avatar";
 
 const storyConfig = {
-  title: "Design System/Atoms/Avatar",
+  title: "Design System/INSIGHTS/Primitives/Avatar",
 
   argTypes: {
     size: {

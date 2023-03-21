@@ -1,9 +1,9 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import IconButton from "../../components/atoms/IconButton/icon-button";
+import IconButton from "../../../insights/components/primitives/IconButton/icon-button";
 
 const storyConfig = {
-  title: "Design System/Atoms/Icon Button",
+  title: "Design System/INSIGHTS/Primitives/Icon Button",
   component: "Icon Button"
 };
 

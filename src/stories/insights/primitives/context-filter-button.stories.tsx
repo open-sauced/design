@@ -1,8 +1,8 @@
-import ContextFilterButton from "src/components/atoms/ContextFilterButton/context-filter-button";
+import ContextFilterButton from "src/insights/components/primitives/ContextFilterButton/context-filter-button";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 const storyConfig = {
-  title: "Design System/Atoms/ContextFilterButton"
+  title: "Design System/INSIGHTS/Primitives/ContextFilterButton"
 };
 export default storyConfig;
 

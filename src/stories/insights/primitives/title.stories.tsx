@@ -1,9 +1,9 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Title from "../../components/atoms/Typography/title";
+import Title from "../../../insights/components/primitives/Typography/title";
 
 const storyConfig = {
-  title: "Design System/Atoms/Title",
+  title: "Design System/INSIGHTS/Primitives/Title",
   component: "Title"
 };
 

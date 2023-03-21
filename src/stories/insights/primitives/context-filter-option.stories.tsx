@@ -1,8 +1,8 @@
-import ContextFilterOption from "src/components/atoms/ContextFilterOption/context-filter-option";
+import ContextFilterOption from "src/insights/components/primitives/ContextFilterOption/context-filter-option";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 const storyConfig = {
-  title: "Design System/Atoms/ContextFilterOption"
+  title: "Design System/INSIGHTS/Primitives/ContextFilterOption"
 };
 export default storyConfig;
 

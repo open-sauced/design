@@ -1,9 +1,9 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import TextInput from "../../components/atoms/TextInput/text-input";
+import TextInput from "../../../insights/components/primitives/TextInput/text-input";
 
 const storyConfig = {
-  title: "Design System/Atoms/Text Input",
+  title: "Design System/INSIGHTS/Primitives/Text Input",
   component: "TextInput"
 };
 

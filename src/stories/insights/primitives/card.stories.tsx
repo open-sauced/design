@@ -1,9 +1,9 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Card from "../../components/atoms/Card/card";
+import Card from "../../../insights/components/primitives/Card/card";
 
 const storyConfig = {
-  title: "Design System/Atoms/Card",
+  title: "Design System/INSIGHTS/Primitives/Card",
   component: "Card"
 };
 

@@ -1,9 +1,9 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import ProgressPie from "../../components/atoms/ProgressPie/progress-pie";
+import ProgressPie from "../../../insights/components/primitives/ProgressPie/progress-pie";
 
 const storyConfig = {
-  title: "Design System/Atoms/ProgressPie"
+  title: "Design System/INSIGHTS/Primitives/ProgressPie"
 };
 
 export default storyConfig;

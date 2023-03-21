@@ -1,10 +1,10 @@
 import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import Select from "src/components/atoms/Select/select";
-import SelectOption from "src/components/atoms/Select/select-option";
+import Select from "src/insights/components/primitives/Select/select";
+import SelectOption from "src/insights/components/primitives/Select/select-option";
 
 const storyConfig = {
-  title: "Design System/Atoms/Select",
+  title: "Design System/INSIGHTS/Primitives/Select",
   component: "Select"
 };
 
