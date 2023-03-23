@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Avatar from "src/insights/components/primitives/Avatar/avatar";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/Avatar",
+  title: "Design System/Insights/Primitives/Avatar",
 
   argTypes: {
     size: {

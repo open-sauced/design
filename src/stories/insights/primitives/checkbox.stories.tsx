@@ -2,7 +2,7 @@ import Checkbox from "src/insights/components/primitives/Checkbox/checkbox";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/Checkbox"
+  title: "Design System/Insights/Primitives/Checkbox"
 };
 
 export default storyConfig;

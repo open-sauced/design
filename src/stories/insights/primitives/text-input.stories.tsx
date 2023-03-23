@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import TextInput from "../../../insights/components/primitives/TextInput/text-input";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/Text Input",
+  title: "Design System/Insights/Primitives/Text Input",
   component: "TextInput"
 };
 

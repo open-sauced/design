@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Title from "../../../insights/components/primitives/Typography/title";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/Title",
+  title: "Design System/Insights/Primitives/Title",
   component: "Title"
 };
 

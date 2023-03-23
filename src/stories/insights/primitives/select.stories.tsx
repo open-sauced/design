@@ -4,7 +4,7 @@ import Select from "src/insights/components/primitives/Select/select";
 import SelectOption from "src/insights/components/primitives/Select/select-option";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/Select",
+  title: "Design System/Insights/Primitives/Select",
   component: "Select"
 };
 

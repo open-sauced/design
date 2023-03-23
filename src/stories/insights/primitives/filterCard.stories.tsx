@@ -4,7 +4,7 @@ import FilterCard from "../../../insights/components/primitives/FilterCard/filte
 
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/FilterCard",
+  title: "Design System/Insights/Primitives/FilterCard",
   component: "FilterCard",
   argTypes: {
     isRemovable: {

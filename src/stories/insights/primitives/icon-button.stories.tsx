@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import IconButton from "../../../insights/components/primitives/IconButton/icon-button";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/Icon Button",
+  title: "Design System/Insights/Primitives/Icon Button",
   component: "Icon Button"
 };
 

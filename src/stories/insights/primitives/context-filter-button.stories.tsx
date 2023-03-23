@@ -2,7 +2,7 @@ import ContextFilterButton from "src/insights/components/primitives/ContextFilte
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/ContextFilterButton"
+  title: "Design System/Insights/Primitives/ContextFilterButton"
 };
 export default storyConfig;
 

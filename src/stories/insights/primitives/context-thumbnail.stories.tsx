@@ -4,7 +4,7 @@ import ContextThumbnail from "../../../insights/components/primitives/ContextThu
 import Thumbnail from "../../../../public/hacktoberfest-icon.png";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/Context Thumbnail",
+  title: "Design System/Insights/Primitives/Context Thumbnail",
   component: "ContextThumbnail"
 };
 

@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Test from "src/hot/components/Test";
 
 const storyConfig = {
-  title: "Design System/HOT/Primitives/Test"
+  title: "Design System/Hot/Primitives/Test"
 };
 
 export default storyConfig;

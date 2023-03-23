@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import EChartWrapper from "../../../insights/components/primitives/EChartWrapper/echart-wrapper";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/eChart Wrapper",
+  title: "Design System/Insights/Primitives/eChart Wrapper",
   component: "EChartWrapper"
 };
 

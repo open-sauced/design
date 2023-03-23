@@ -4,7 +4,7 @@ import PillSelector from "../../../insights/components/primitives/PillSelector/p
 import Thumbnail from "../../../../public/hacktoberfest-icon.png";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/PillSelector",
+  title: "Design System/Insights/Primitives/PillSelector",
   component: "PillSelector"
 };
 

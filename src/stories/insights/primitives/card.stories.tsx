@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Card from "../../../insights/components/primitives/Card/card";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/Card",
+  title: "Design System/Insights/Primitives/Card",
   component: "Card"
 };
 

@@ -4,7 +4,7 @@ import Icon from "../../../insights/components/primitives/Icon/icon";
 import ForkIcon from "public/icons/fork-icon.svg";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/Icon",
+  title: "Design System/Insights/Primitives/Icon",
   component: "Icon Button"
 };
 

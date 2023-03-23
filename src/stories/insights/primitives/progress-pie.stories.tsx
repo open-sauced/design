@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from "@storybook/react";
 import ProgressPie from "../../../insights/components/primitives/ProgressPie/progress-pie";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/ProgressPie"
+  title: "Design System/Insights/Primitives/ProgressPie"
 };
 
 export default storyConfig;

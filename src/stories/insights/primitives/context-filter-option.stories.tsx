@@ -2,7 +2,7 @@ import ContextFilterOption from "src/insights/components/primitives/ContextFilte
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 const storyConfig = {
-  title: "Design System/INSIGHTS/Primitives/ContextFilterOption"
+  title: "Design System/Insights/Primitives/ContextFilterOption"
 };
 export default storyConfig;
 
